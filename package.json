@@ -1,0 +1,34 @@
+{
+  "name": "wetube",
+  "version": "1.0.0",
+  "description": "Cloning Youtbe with VanillaJS and NodeJS",
+  "main": "index.js",
+  "dependencies": {
+    "@babel/core": "^7.10.2",
+    "@babel/node": "^7.10.1",
+    "@babel@/core": "^7.10.2",
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.5",
+    "core-js": "^3.6.5",
+    "express": "^4.17.1",
+    "helmet": "^3.23.0",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.10.2",
+    "nodemon": "^2.0.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DongHuuk/clone_coding_js.git"
+  },
+  "author": "Mr.choi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DongHuuk/clone_coding_js/issues"
+  },
+  "homepage": "https://github.com/DongHuuk/clone_coding_js#readme",
+  "scripts": {
+    "start": "nodemon --exec babel-node init.js --delay 2"
+  }
+}
